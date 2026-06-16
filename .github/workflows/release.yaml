@@ -39,6 +39,7 @@ jobs:
       - name: Create version tags
         run: |
           RELEASE_COMMIT=$(git rev-parse HEAD)
+          git tag -af "$VERSION" "$RELEASE_COMMIT" -m "Release $VERSION"
           git tag -af "$MINOR" "$RELEASE_COMMIT" -m "$MINOR -> $VERSION"
           git tag -af "$MAJOR" "$RELEASE_COMMIT" -m "$MAJOR -> $VERSION"
           git push origin "$MINOR" "$MAJOR" --force
