@@ -12,7 +12,7 @@ jobs:
     name: Pre-release tests
     uses: ./.github/workflows/test.yaml
   release:
-    name: Release
+    name: Release ${{ inputs.version }}
     needs: test
     runs-on: ubuntu-latest
     permissions:
