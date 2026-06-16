@@ -23,6 +23,10 @@ jobs:
         run: bun install
       - name: Bundle action
         run: bun run build
+      - name: Set git user
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
       - name: Create release commit
         run: |
           git add -f dist
