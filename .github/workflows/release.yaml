@@ -81,6 +81,4 @@ jobs:
           tag_name: v${{ needs.changelog.outputs.version }}
           make_latest: true
           body: |
-            See the changelog for details:
-
-            https://github.com/${{ github.repository }}/blob/main/CHANGELOG.md#${{ needs.changelog.outputs.version }}
+            See the [changelog](https://github.com/${{ github.repository }}/blob/main/CHANGELOG.md#${{ needs.changelog.outputs.version }}) for details.
