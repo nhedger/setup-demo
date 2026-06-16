@@ -36,7 +36,7 @@ jobs:
           git commit -m "chore: release"
       - name: Create version tags
         run: |
-          git tag -af "$VERSION"          -m "$VERSION"
-          git tag -af "$MINOR" "$VERSION" -m "$MINOR -> $VERSION"
-          git tag -af "$MAJOR" "$VERSION" -m "$MAJOR -> $VERSION"
-          git push origin "$VERSION" "$MINOR" "$MAJOR" --force
+          git tag -af "${{inputs.version}}"          -m "${{inputs.version}}"
+          git tag -af "${{inputs.minor}}" "${{inputs.version}}" -m "${{inputs.minor}} -> ${{inputs.version}}"
+          git tag -af "${{inputs.major}}" "${{inputs.version}}" -m "${{inputs.major}} -> ${{inputs.version}}"
+          git push origin "${{inputs.version}}" "${{inputs.minor}}" "${{inputs.major}}" --force
