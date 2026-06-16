@@ -1,0 +1,35 @@
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to release (e.g., 1.2.3)'
+        required: true
+      major:
+        description: 'Major version tag (e.g., 1)'
+        required: true
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v2
+      - name: Install dependencies
+        run: bun install
+      - name: Bundle action
+        run: bun run build
+      - name: Create release commit
+        run: |
+          git add -f dist
+          git commit -m "chore: release"
+      - name: Create version tags
+        run: |
+          git tag -af "$VERSION"          -m "$VERSION"
+          git tag -af "$MINOR" "$VERSION" -m "$MINOR -> $VERSION"
+          git tag -af "$MAJOR" "$VERSION" -m "$MAJOR -> $VERSION"
+          git push origin "$VERSION" "$MINOR" "$MAJOR" --force
