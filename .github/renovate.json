@@ -3,9 +3,10 @@
 	"timezone": "Europe/Zurich",
 	"schedule": ["before 9am on monday"],
 	"extends": [
-		"config:best-practices",
-		":semanticCommitTypeAll(chore)",
+		":automergeMinor",
 		":pinAllExceptPeerDependencies",
+		":semanticCommitTypeAll(chore)",
+		"config:best-practices",
 		"customManagers:biomeVersions"
 	],
 	"rangeStrategy": "pin",
