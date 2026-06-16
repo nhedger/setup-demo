@@ -5,7 +5,7 @@ on:
 
 jobs:
   bundle:
-    name: Bundle
+    name: Create test bundle
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
