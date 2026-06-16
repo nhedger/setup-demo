@@ -42,7 +42,7 @@ jobs:
           git tag -af "$VERSION" "$RELEASE_COMMIT" -m "Release $VERSION"
           git tag -af "$MINOR" "$RELEASE_COMMIT" -m "$MINOR -> $VERSION"
           git tag -af "$MAJOR" "$RELEASE_COMMIT" -m "$MAJOR -> $VERSION"
-          git push origin "$MINOR" "$MAJOR" --force
+          git push origin "$VERSION"1 "$MINOR" "$MAJOR" --force
         env:
           VERSION: ${{ github.event.inputs.version }}
           MINOR: ${{ github.event.inputs.minor }}
