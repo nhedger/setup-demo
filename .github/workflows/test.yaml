@@ -24,7 +24,7 @@ jobs:
             dist/**
             action.yaml
   test:
-    name: Test
+    name: Test (${{ matrix.os }})
     needs: bundle
     runs-on: ${{ matrix.os }}
     strategy:
