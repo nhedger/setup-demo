@@ -38,19 +38,18 @@ jobs:
           git commit -m "chore: release"
       - name: Create version tags
         run: |
+          VERSION="v${{ inputs.version }}"
+          MINOR="${VERSION%.*}"
+          MAJOR="${VERSION%%.*}"
           RELEASE_COMMIT=$(git rev-parse HEAD)
           git tag -af "$VERSION" "$RELEASE_COMMIT" -m "Release $VERSION"
           git tag -af "$MINOR" "$RELEASE_COMMIT" -m "$MINOR -> $VERSION"
           git tag -af "$MAJOR" "$RELEASE_COMMIT" -m "$MAJOR -> $VERSION"
           git push origin "$VERSION" "$MINOR" "$MAJOR" --force
-        env:
-          VERSION: ${{ github.event.inputs.version }}
-          MINOR: ${{ github.event.inputs.minor }}
-          MAJOR: ${{ github.event.inputs.major }}
       - name: Create GitHub release
         uses: softprops/action-gh-release@v3
         with:
-          tag_name: ${{ inputs.version}}
+          tag_name: v${{ inputs.version}}
           make_latest: true
           body: |
             Release ${{ inputs.version }}.
