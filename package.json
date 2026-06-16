@@ -23,7 +23,7 @@
 		"@changesets/changelog-github": "0.7.0",
 		"@changesets/cli": "2.31.0",
 		"@types/node": "24.13.2",
-		"@typescript/native-preview": "7.0.0-dev.20260613.1",
+		"@typescript/native-preview": "7.0.0-dev.20260616.1",
 		"tsdown": "0.22.2",
 		"typescript": "6.0.3"
 	}
