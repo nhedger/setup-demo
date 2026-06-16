@@ -17,6 +17,8 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
@@ -36,7 +38,6 @@ jobs:
           git commit -m "chore: release"
       - name: Create version tags
         run: |
-          git tag -af "${{inputs.version}}"          -m "${{inputs.version}}"
-          git tag -af "${{inputs.minor}}" "${{inputs.version}}" -m "${{inputs.minor}} -> ${{inputs.version}}"
-          git tag -af "${{inputs.major}}" "${{inputs.version}}" -m "${{inputs.major}} -> ${{inputs.version}}"
-          git push origin "${{inputs.version}}" "${{inputs.minor}}" "${{inputs.major}}" --force
+          git tag -af "$MINOR" "$RELEASE_COMMIT" -m "$MINOR -> $VERSION"
+          git tag -af "$MAJOR" "$RELEASE_COMMIT" -m "$MAJOR -> $VERSION"
+          git push origin "$MINOR" "$MAJOR" --force
