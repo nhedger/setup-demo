@@ -39,9 +39,9 @@ jobs:
           - os: macos-26
             label: 'macOS 26 arm64'
           - os: windows-2025
-            label: 'Windows 2025 x64'
+            label: 'Windows x64'
           - os: windows-11-arm
-            label: 'Windows 11 arm64'
+            label: 'Windows arm64'
 
     steps:
       - name: Download bundled action
