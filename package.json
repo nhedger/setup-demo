@@ -19,12 +19,12 @@
 		"typecheck": "tsc --noEmit"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^2.5.0",
-		"@changesets/changelog-github": "^0.7.0",
-		"@changesets/cli": "^2.31.0",
+		"@biomejs/biome": "2.5.0",
+		"@changesets/changelog-github": "0.7.0",
+		"@changesets/cli": "2.31.0",
 		"@types/node": "24.13.2",
 		"@typescript/native-preview": "7.0.0-dev.20260509.2",
-		"tsdown": "^0.22.0",
-		"typescript": "^6.0.3"
+		"tsdown": "0.22.2",
+		"typescript": "6.0.3"
 	}
 }
