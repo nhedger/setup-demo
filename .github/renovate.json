@@ -19,6 +19,13 @@
 			"matchDatasources": ["node-version"],
 			"matchPackageNames": ["node"],
 			"allowedVersions": ">=24 <25"
+		},
+		{
+			"description": "Stay on @types/node 24",
+			"matchDatasources": ["npm"],
+			"matchPackageNames": ["@types/node"],
+			"versioning": "node",
+			"allowedVersions": ">=24 <25"
 		}
 	]
 }
