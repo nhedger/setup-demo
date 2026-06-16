@@ -47,3 +47,10 @@ jobs:
           VERSION: ${{ github.event.inputs.version }}
           MINOR: ${{ github.event.inputs.minor }}
           MAJOR: ${{ github.event.inputs.major }}
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v3
+        with:
+          tag_name: ${{ inputs.version}}
+          make_latest: true
+          body: |
+            Release ${{ inputs.version }}.
