@@ -13,6 +13,7 @@ jobs:
     uses: ./.github/workflows/test.yaml
   release:
     name: Release
+    needs: test
     runs-on: ubuntu-latest
     permissions:
       contents: write

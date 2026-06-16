@@ -1,4 +1,4 @@
-name: Integrate
+name: Test
 
 on:
   workflow_call:
@@ -23,8 +23,9 @@ jobs:
           path: |
             dist/**
             action.yaml
-  integrate:
+  test:
     name: Integrate
+    needs: bundle
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
