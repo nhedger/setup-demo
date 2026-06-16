@@ -48,7 +48,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6y
+        uses: actions/checkout@v6
         with:
           ref: ${{ needs.changelog.outputs.sha }}
       - name: Set up Bun
