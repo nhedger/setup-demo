@@ -1,5 +1,5 @@
 {
-	"name": "tsdown-starter",
+	"name": "setup-demo",
 	"type": "module",
 	"version": "1.0.1",
 	"description": "A starter for creating a TypeScript package.",
