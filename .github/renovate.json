@@ -5,6 +5,8 @@
 	"extends": [
 		":automergeMinor",
 		":pinAllExceptPeerDependencies",
+		":semanticCommits",
+		":semanticCommitScope(deps)",
 		":semanticCommitTypeAll(chore)",
 		"config:best-practices",
 		"customManagers:biomeVersions"
