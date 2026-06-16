@@ -8,6 +8,9 @@ on:
         required: true
 
 jobs:
+  test:
+    name: Pre-release tests
+    uses: ./.github/workflows/test.yaml
   release:
     name: Release
     runs-on: ubuntu-latest
