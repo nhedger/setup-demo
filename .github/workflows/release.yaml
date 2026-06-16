@@ -6,6 +6,9 @@ on:
       version:
         description: 'Version to release (e.g., 1.2.3)'
         required: true
+      minor:
+        description: 'Minor version tag (e.g., 1.2)'
+        required: true
       major:
         description: 'Major version tag (e.g., 1)'
         required: true
