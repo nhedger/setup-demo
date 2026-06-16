@@ -1,5 +1,11 @@
 # tsdown-starter
 
+## 1.0.1
+
+### Patch Changes
+
+- [`c622d9d`](https://github.com/nhedger/setup-demo/commit/c622d9d0c574b60551702ea10322c1b37a55d934) Thanks [@nhedger](https://github.com/nhedger)! - demodemo
+
 ## 1.0.0
 
 ### Major Changes
