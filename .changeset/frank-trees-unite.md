@@ -1,5 +1,5 @@
 ---
-"tsdown-starter": patch
+"tsdown-starter": major
 ---
 
-demo
+initial release
