@@ -1,0 +1,5 @@
+---
+"tsdown-starter": patch
+---
+
+demod
