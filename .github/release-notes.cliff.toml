@@ -1,4 +1,4 @@
-# git-cliff ~ configuration file
+# git-cliff ~ release notes configuration file
 # https://git-cliff.org/docs/configuration
 
 [remote.github]
@@ -12,9 +12,6 @@ initial_tag = "0.1.0"
 # A Tera template to be rendered for each release in the changelog.
 # See https://keats.github.io/tera/docs/#introduction
 body = """
-## What's Changed
-
-{%- if version %} in {{ version | trim_start_matches(pat="v") }}{%- endif -%}
 {% for commit in commits %}
   {% if commit.remote.pr_title -%}
     {%- set commit_message = commit.remote.pr_title -%}
@@ -25,10 +22,7 @@ body = """
     {% if commit.remote.username %} by @{{ commit.remote.username }}{%- endif -%}
     {% if commit.remote.pr_number %} in \
       [#{{ commit.remote.pr_number }}]({{ self::remote_url() }}/pull/{{ commit.remote.pr_number }}) \
-    {%- endif %}{% if commit.body %}
-
-{% for line in commit.body | trim | split(pat="\n") %}  {{ line }}
-{% endfor %}{% endif %}
+    {%- endif %}
 {%- endfor -%}
 
 {%- if github -%}
