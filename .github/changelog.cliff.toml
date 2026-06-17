@@ -9,25 +9,35 @@ repo  = "setup-demo"
 initial_tag = "0.1.0"
 
 [changelog]
+header = """
+# Changelog\n
+All notable changes to this project will be documented in this file.
+
+This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).\n
+"""
+
 # A Tera template to be rendered for each release in the changelog.
 # See https://keats.github.io/tera/docs/#introduction
 body = """
 ## {{ version }} - {{ timestamp | date(format="%Y-%m-%d") }}
 
-
-{% for commit in commits %}
-  {% if commit.remote.pr_title -%}
-    {%- set commit_message = commit.remote.pr_title -%}
-  {%- else -%}
-    {%- set commit_message = commit.message -%}
-  {%- endif -%}
-  * {{ commit_message | split(pat="\n") | first | trim }}\
-    {% if commit.remote.username %} by [@{{ commit.remote.username }}]({{ self::github_user_url(username=commit.remote.username) }}){%- endif -%}
-    {% if commit.remote.pr_number %} in \
-      [#{{ commit.remote.pr_number }}]({{ self::remote_url() }}/pull/{{ commit.remote.pr_number }}) \
+{% for group, commits in commits | group_by(attribute="group") %}
+  ### {{ group }}
+  {% for commit in commits %}
+    {% if commit.remote.pr_title -%}
+      {%- set commit_message = commit.remote.pr_title -%}
+    {%- else -%}
+      {%- set commit_message = commit.message -%}
     {%- endif -%}
-    {{ " " }}([{{ commit.id | truncate(length=7, end="") }}]({{ self::remote_url() }}/commit/{{ commit.id }}))
-{%- endfor -%}
+    * {{ commit_message | split(pat="\n") | first | trim }}\
+      {% if commit.remote.username %} by [@{{ commit.remote.username }}]({{ self::github_user_url(username=commit.remote.username) }}){%- endif -%}
+      {% if commit.remote.pr_number %} in \
+        [#{{ commit.remote.pr_number }}]({{ self::remote_url() }}/pull/{{ commit.remote.pr_number }}) \
+      {%- endif -%}
+      {{ " " }}([{{ commit.id | truncate(length=7, end="") }}]({{ self::remote_url() }}/commit/{{ commit.id }}))
+  {%- endfor %}
+
+{% endfor -%}
 
 {%- if github -%}
 {% if github.contributors | filter(attribute="is_first_time", value=true) | length != 0 %}
@@ -44,9 +54,8 @@ body = """
 
 {% if version %}
     {% if previous.version %}
-      **Changes since previous version**: {{ self::remote_url() }}/compare/{{ previous.version }}...{{ version }}
+      **Comparison**: {{ self::remote_url() }}/compare/{{ previous.version }}...{{ version }}
     {% endif %}
-    **Changelog**: {{ self::remote_url() }}/blob/main/CHANGELOG.md
 {% else -%}
   {% raw %}\n{% endraw %}
 {% endif %}
