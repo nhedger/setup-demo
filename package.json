@@ -1,0 +1,29 @@
+{
+	"name": "setup-demo",
+	"type": "module",
+	"version": "1.0.1",
+	"description": "A demo project",
+	"author": "Nicolas Hedger <nicolas@hedger.ch>",
+	"license": "MIT",
+	"homepage": "https://github.com/nhedger/setup-demo#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nhedger/setup-demo.git"
+	},
+	"bugs": {
+		"url": "https://github.com/nhedger/setup-demo/issues"
+	},
+	"scripts": {
+		"build": "tsdown",
+		"dev": "tsdown --watch",
+		"typecheck": "tsc --noEmit"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.5.0",
+		"@changesets/changelog-github": "0.7.0",
+		"@changesets/cli": "2.31.0",
+		"@types/node": "24.13.2",
+		"tsdown": "0.22.2",
+		"typescript": "6.0.3"
+	}
+}
