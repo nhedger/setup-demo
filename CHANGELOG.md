@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.3.1 - 2026-06-17
+
+
+### Bug Fixes
+
+* something by [@nhedger](https://github.com/nhedger) ([3305b92](https://github.com/nhedger/setup-demo/commit/3305b92e014c5cf9bc4d28bff4c37b77901e4e4c))
+
+
+
+**Comparison**: https://github.com/nhedger/setup-demo/compare/v1.3.0...v1.3.1
+
 ## v1.3.0 - 2026-06-17
 
 
@@ -28,12 +39,6 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 * new stuff by [@nhedger](https://github.com/nhedger) ([2a7b22c](https://github.com/nhedger/setup-demo/commit/2a7b22cb49ee17465fb4a211d40193314b42f466))
 
 
-### chore
-
-* v1.2.0 by [@github-actions[bot]](https://github.com/apps/github-actions) ([2150992](https://github.com/nhedger/setup-demo/commit/2150992890447e769b9ce949f489deadc7d1ff1f))
-* wip by [@nhedger](https://github.com/nhedger) ([009c263](https://github.com/nhedger/setup-demo/commit/009c2636a0763b9654e79760b49ec5cc67d38fae))
-
-
 
 **Comparison**: https://github.com/nhedger/setup-demo/compare/v1.1.0...v1.2.0
 
@@ -43,11 +48,6 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Features
 
 * wip by [@nhedger](https://github.com/nhedger) ([30b01b1](https://github.com/nhedger/setup-demo/commit/30b01b1d0668e26a8985490ecc8f3d90775109d4))
-
-
-### chore
-
-* v1.1.0 by [@github-actions[bot]](https://github.com/apps/github-actions) ([6910db7](https://github.com/nhedger/setup-demo/commit/6910db76915e3834276bc9c8246812461415708a))
 
 
 
@@ -61,21 +61,10 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 * awesome new feature by [@nhedger](https://github.com/nhedger) ([2fc1995](https://github.com/nhedger/setup-demo/commit/2fc1995f9f2a77f58cd2984a9ca43a3d85ab2adb))
 
 
-### chore
-
-* v1.0.0 by [@github-actions[bot]](https://github.com/apps/github-actions) ([64a037c](https://github.com/nhedger/setup-demo/commit/64a037c033b81876ebff707caf7396d2f5940fd8))
-
-
 
 **Comparison**: https://github.com/nhedger/setup-demo/compare/v0.1.0...v1.0.0
 
 ## v0.1.0 - 2026-06-17
-
-
-### chore
-
-* v0.1.0 by [@github-actions[bot]](https://github.com/apps/github-actions) ([57e9f1e](https://github.com/nhedger/setup-demo/commit/57e9f1ed21ee633be9af3d2831f4b4499d32eef4))
-* init by [@nhedger](https://github.com/nhedger) ([52ba0d2](https://github.com/nhedger/setup-demo/commit/52ba0d2ba2778ade811f3d343e15a34d3362eca1))
 
 
 
