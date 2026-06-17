@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.4.1 - 2026-06-17
+
+
+### Bug Fixes
+
+* this should work by [@nhedger](https://github.com/nhedger) ([1cf4b12](https://github.com/nhedger/setup-demo/commit/1cf4b1210620f9cc48b046fd019aefa4bc0a4069))<br>
+I hope `this`<br>
+<br>
+```<br>
+works<br>
+```
+
+
+
+**Comparison**: https://github.com/nhedger/setup-demo/compare/v1.4.0...v1.4.1
+
 ## v1.4.0 - 2026-06-17
 
 
