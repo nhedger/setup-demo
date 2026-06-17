@@ -4,12 +4,25 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.3.2 - 2026-06-17
+
+
+### Bug Fixes
+
+* this better work by [@nhedger](https://github.com/nhedger) ([d2f773d](https://github.com/nhedger/setup-demo/commit/d2f773dd630262a1715f4f926da4add7d76cc161))<br>
+add some random text
+
+
+
+**Comparison**: https://github.com/nhedger/setup-demo/compare/v1.3.1...v1.3.2
+
 ## v1.3.1 - 2026-06-17
 
 
 ### Bug Fixes
 
-* something by [@nhedger](https://github.com/nhedger) ([3305b92](https://github.com/nhedger/setup-demo/commit/3305b92e014c5cf9bc4d28bff4c37b77901e4e4c))
+* something by [@nhedger](https://github.com/nhedger) ([3305b92](https://github.com/nhedger/setup-demo/commit/3305b92e014c5cf9bc4d28bff4c37b77901e4e4c))<br>
+do fix it please
 
 
 
@@ -20,7 +33,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### Features
 
-* yeah by [@nhedger](https://github.com/nhedger) ([0a9dcce](https://github.com/nhedger/setup-demo/commit/0a9dcce94a9cfdc71ae7379f41318ac02ccd3ade))
+* yeah by [@nhedger](https://github.com/nhedger) ([0a9dcce](https://github.com/nhedger/setup-demo/commit/0a9dcce94a9cfdc71ae7379f41318ac02ccd3ade))<br>
+some okey
 
 
 
@@ -31,7 +45,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### Bug Fixes
 
-* wip by [@nhedger](https://github.com/nhedger) ([11d921d](https://github.com/nhedger/setup-demo/commit/11d921d8e4beaf304a5318b9f5d1ba28a9af5671))
+* wip by [@nhedger](https://github.com/nhedger) ([11d921d](https://github.com/nhedger/setup-demo/commit/11d921d8e4beaf304a5318b9f5d1ba28a9af5671))<br>
+some fix
 
 
 ### Features
@@ -47,7 +62,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### Features
 
-* wip by [@nhedger](https://github.com/nhedger) ([30b01b1](https://github.com/nhedger/setup-demo/commit/30b01b1d0668e26a8985490ecc8f3d90775109d4))
+* wip by [@nhedger](https://github.com/nhedger) ([30b01b1](https://github.com/nhedger/setup-demo/commit/30b01b1d0668e26a8985490ecc8f3d90775109d4))<br>
+some more text
 
 
 
@@ -58,7 +74,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### Features
 
-* awesome new feature by [@nhedger](https://github.com/nhedger) ([2fc1995](https://github.com/nhedger/setup-demo/commit/2fc1995f9f2a77f58cd2984a9ca43a3d85ab2adb))
+* awesome new feature by [@nhedger](https://github.com/nhedger) ([2fc1995](https://github.com/nhedger/setup-demo/commit/2fc1995f9f2a77f58cd2984a9ca43a3d85ab2adb))<br>
+some message to tell more about the breaking change
 
 
 
