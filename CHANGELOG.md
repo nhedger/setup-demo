@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.4.0 - 2026-06-17
+
+
+### Features
+
+* new feature by [@nhedger](https://github.com/nhedger) ([d39f2b4](https://github.com/nhedger/setup-demo/commit/d39f2b47d701bc6bb352f154fe6cab2c75f7abfd))<br>
+you can do `this` or<br>
+```json<br>
+{"that": true}<br>
+```
+
+
+
+**Comparison**: https://github.com/nhedger/setup-demo/compare/v1.3.2...v1.4.0
+
 ## v1.3.2 - 2026-06-17
 
 
