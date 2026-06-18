@@ -76,10 +76,10 @@ postprocessors = []
 conventional_commits = true
 filter_unconventional = true
 commit_parsers = [
-  { message = "^feat", group = "Features" },
-  { message = "^fix", group = "Bug Fixes" },
-  { message = "^perf", group = "Performance Improvements" },
-  { message = "^revert", group = "Reverts" },
+  { message = "^feat", group = "✨ Features" },
+  { message = "^fix", group = "🐛 Bug Fixes" },
+  { message = "^perf", group = "⚡ Performance Improvements" },
+  { message = "^revert", group = "⏪ Reverts" },
 ]
 split_commits = false
 commit_preprocessors = [{ pattern = '\((\w+\s)?#([0-9]+)\)', replace = "" }]
