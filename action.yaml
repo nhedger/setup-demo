@@ -1,5 +1,5 @@
 name: 'Setup demo'
-description: 'Set up a demo repository to test the action.'
+description: 'Set up a demo repository to test the action'
 author: nhedger
 runs:
   using: node24
