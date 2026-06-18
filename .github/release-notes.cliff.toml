@@ -51,16 +51,6 @@ body = """
 {%- endfor -%}
 {%- endif -%}
 
-{% if version %}
-    \n
-    **Changelog**: {{ self::remote_url() }}/blob/main/CHANGELOG.md
-    {% if previous.version %}
-      **Comparison**: {{ self::remote_url() }}/compare/{{ previous.version }}...{{ version }}
-    {% endif %}
-{% else -%}
-  {% raw %}\n{% endraw %}
-{% endif %}
-
 {%- macro remote_url() -%}
   https://github.com/{{ remote.github.owner }}/{{ remote.github.repo }}
 {%- endmacro -%}
