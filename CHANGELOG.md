@@ -4,17 +4,23 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.4.2 - 2026-06-18
+
+
+### Bug Fixes
+
+* wip by [@nhedger](https://github.com/nhedger) ([e1434f7](https://github.com/nhedger/setup-demo/commit/e1434f7e5283a95375f09b886be463937967ffb9))
+
+
+
+**Comparison**: https://github.com/nhedger/setup-demo/compare/v1.4.1...v1.4.2
+
 ## v1.4.1 - 2026-06-17
 
 
 ### Bug Fixes
 
-* this should work by [@nhedger](https://github.com/nhedger) ([1cf4b12](https://github.com/nhedger/setup-demo/commit/1cf4b1210620f9cc48b046fd019aefa4bc0a4069))<br>
-I hope `this`<br>
-<br>
-```<br>
-works<br>
-```
+* this should work by [@nhedger](https://github.com/nhedger) ([1cf4b12](https://github.com/nhedger/setup-demo/commit/1cf4b1210620f9cc48b046fd019aefa4bc0a4069))
 
 
 
@@ -25,11 +31,7 @@ works<br>
 
 ### Features
 
-* new feature by [@nhedger](https://github.com/nhedger) ([d39f2b4](https://github.com/nhedger/setup-demo/commit/d39f2b47d701bc6bb352f154fe6cab2c75f7abfd))<br>
-you can do `this` or<br>
-```json<br>
-{"that": true}<br>
-```
+* new feature by [@nhedger](https://github.com/nhedger) ([d39f2b4](https://github.com/nhedger/setup-demo/commit/d39f2b47d701bc6bb352f154fe6cab2c75f7abfd))
 
 
 
@@ -40,8 +42,7 @@ you can do `this` or<br>
 
 ### Bug Fixes
 
-* this better work by [@nhedger](https://github.com/nhedger) ([d2f773d](https://github.com/nhedger/setup-demo/commit/d2f773dd630262a1715f4f926da4add7d76cc161))<br>
-add some random text
+* this better work by [@nhedger](https://github.com/nhedger) ([d2f773d](https://github.com/nhedger/setup-demo/commit/d2f773dd630262a1715f4f926da4add7d76cc161))
 
 
 
@@ -52,8 +53,7 @@ add some random text
 
 ### Bug Fixes
 
-* something by [@nhedger](https://github.com/nhedger) ([3305b92](https://github.com/nhedger/setup-demo/commit/3305b92e014c5cf9bc4d28bff4c37b77901e4e4c))<br>
-do fix it please
+* something by [@nhedger](https://github.com/nhedger) ([3305b92](https://github.com/nhedger/setup-demo/commit/3305b92e014c5cf9bc4d28bff4c37b77901e4e4c))
 
 
 
@@ -64,8 +64,7 @@ do fix it please
 
 ### Features
 
-* yeah by [@nhedger](https://github.com/nhedger) ([0a9dcce](https://github.com/nhedger/setup-demo/commit/0a9dcce94a9cfdc71ae7379f41318ac02ccd3ade))<br>
-some okey
+* yeah by [@nhedger](https://github.com/nhedger) ([0a9dcce](https://github.com/nhedger/setup-demo/commit/0a9dcce94a9cfdc71ae7379f41318ac02ccd3ade))
 
 
 
@@ -76,8 +75,7 @@ some okey
 
 ### Bug Fixes
 
-* wip by [@nhedger](https://github.com/nhedger) ([11d921d](https://github.com/nhedger/setup-demo/commit/11d921d8e4beaf304a5318b9f5d1ba28a9af5671))<br>
-some fix
+* wip by [@nhedger](https://github.com/nhedger) ([11d921d](https://github.com/nhedger/setup-demo/commit/11d921d8e4beaf304a5318b9f5d1ba28a9af5671))
 
 
 ### Features
@@ -93,8 +91,7 @@ some fix
 
 ### Features
 
-* wip by [@nhedger](https://github.com/nhedger) ([30b01b1](https://github.com/nhedger/setup-demo/commit/30b01b1d0668e26a8985490ecc8f3d90775109d4))<br>
-some more text
+* wip by [@nhedger](https://github.com/nhedger) ([30b01b1](https://github.com/nhedger/setup-demo/commit/30b01b1d0668e26a8985490ecc8f3d90775109d4))
 
 
 
@@ -105,8 +102,7 @@ some more text
 
 ### Features
 
-* awesome new feature by [@nhedger](https://github.com/nhedger) ([2fc1995](https://github.com/nhedger/setup-demo/commit/2fc1995f9f2a77f58cd2984a9ca43a3d85ab2adb))<br>
-some message to tell more about the breaking change
+* awesome new feature by [@nhedger](https://github.com/nhedger) ([2fc1995](https://github.com/nhedger/setup-demo/commit/2fc1995f9f2a77f58cd2984a9ca43a3d85ab2adb))
 
 
 
