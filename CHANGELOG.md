@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.6.0 - 2026-06-18
+
+
+### ✨ Features
+
+* feat: new awesome feature by [@nhedger](https://github.com/nhedger) in [#6](https://github.com/nhedger/setup-demo/pull/6) ([f790995](https://github.com/nhedger/setup-demo/commit/f790995901c8cdcd343a9c9f72fc04fe2ab4d206))
+
+
+
+**Comparison**: https://github.com/nhedger/setup-demo/compare/v1.5.0...v1.6.0
+
 ## v1.5.0 - 2026-06-18
 
 
