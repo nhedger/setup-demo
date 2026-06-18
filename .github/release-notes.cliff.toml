@@ -52,6 +52,7 @@ body = """
 {%- endif -%}
 
 {% if version %}
+    \n
     **Changelog**: {{ self::remote_url() }}/blob/main/CHANGELOG.md
     {% if previous.version %}
       **Comparison**: {{ self::remote_url() }}/compare/{{ previous.version }}...{{ version }}
