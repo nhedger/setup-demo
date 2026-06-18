@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.7.2 - 2026-06-18
+
+
+### 🐛 Bug Fixes
+
+* wip by [@nhedger](https://github.com/nhedger) ([41c28d2](https://github.com/nhedger/setup-demo/commit/41c28d22b509674ff07c4a9401b9a4d4b2d02bfe))
+* this shit by [@nhedger](https://github.com/nhedger) ([a9b3715](https://github.com/nhedger/setup-demo/commit/a9b3715203a47a911b8094bd6eef81d4cff46cee))
+
+
+
+**Comparison**: https://github.com/nhedger/setup-demo/compare/v1.7.1...v1.7.2
+
 ## v1.7.1 - 2026-06-18
 
 
