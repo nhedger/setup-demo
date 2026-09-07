@@ -26,7 +26,7 @@ jobs:
           ref: main
           fetch-depth: 0
       - name: Set up git-cliff
-        uses: taiki-e/install-action@1ed6d7be6168f6c9046541087ff549b6bc581fdf # v2.87.2
+        uses: taiki-e/install-action@84f5ac3124727fb3d284d4d22ee9ab3654fd09a6 # v2.87.7
         with:
           tool: git-cliff@2.13.0
       - name: Compute new version
